@@ -1,0 +1,42 @@
+
+dy {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2F539B;
+  }
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+  }
+  h1 {
+    font-family: "Helvetica", sans-serif;
+    color: #4EE2EC;
+    font-size: 2.5rem; /* Adjust the font size as needed */
+    margin-bottom: 0.5rem; /* Add a small margin below the header */
+  }
+  p.subtitle {
+    font-size: 1.2rem; /* Adjust the font size for the subtitle */
+    margin-top: 0;
+  }
+  img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    margin-top: 2rem;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  }
+  .content {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 2rem;
+    text-align: justify;
+  }
+  a {
+    color: #3498db;
+    text-decoration: none;
+  }
+</style>
+
