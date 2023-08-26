@@ -1,0 +1,60 @@
+<html >
+<head>
+
+<title>JavaScript Form Validation using a sample Employee registration form</title>
+
+<script type="text/javascript">
+function demo()
+{
+var dob=document.getElementById('dob').value;
+var jod=document.getElementById('jod').value;
+var sal=document.getElementById('sal').value;
+
+var dob_year=dob.split('-');
+
+var joining_date_year=jod.split('-');
+
+var demo1=dob_year[0];
+var demo2=joining_date_year[0];
+
+if(demo1 > demo2)
+{
+        alert("Date of Birth should not be greater than joining date");
+}
+else
+{
+	alert("Date Valid");
+}
+
+if(sal>0)
+{
+	alert("Salary submitted");
+}
+else
+{
+	alert("Salary not submitted");
+}
+}
+
+    </script>
+</head>
+
+<body>
+<h1>Employee Registration Form</h1>
+<form name='registration' onSubmit="demo();">
+
+<label for="birth">Birth of date:</label>
+<input type="date" id="dob" name="birth"><br><br>
+
+<label for="jdate">Date of joining:</label>
+<input type="date" id="jod" name="jdate"><br><br>
+
+<label for="salary">salary:</label>
+<input type="text" id="sal" name="salary"><br><br>
+
+<input type="submit" name="submit" value="Submit" />
+
+</form>
+
+</body>
+</html>
