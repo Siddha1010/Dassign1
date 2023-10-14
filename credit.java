@@ -20,7 +20,7 @@ class SliverCardCustomer implements CreditCard
 {
 
 	String name;
-
+        String sirname;
 	int card_no ;
 
 	double creditAmount;
